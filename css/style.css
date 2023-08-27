@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'PT Sans Caption Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('PT Sans Caption Bold'),
+    url('../fonts/pt-sans-caption-bold.woff') format('woff'),
+    url('../fonts/pt-sans-caption-bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'PT Sans Caption Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PT Sans Caption Regular'),
+    url('../fonts/pt-sans-caption-regular.woff') format('woff'),
+    url('../fonts/pt-sans-caption-regular.woff2') format('woff2');
+}
+
+body {
+   background: linear-gradient(#ff9800, #ffeb3b);
+   margin-top: 35px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color:aliceblue;
+    font-family: 'PT Sans Caption Bold';
+}
+
+.conteiner {
+    background: white;
+    width: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'PT Sans Caption Bold';
+    padding: 20px;
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li {
+    background: url(../img/icon-radio-checked.svg) no-repeat;
+}
